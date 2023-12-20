@@ -1,0 +1,6 @@
+when making a pointer to a struct you have to delete the pointer in order for the de-constructor to be triggered otherwise it will be left on the heap;
+
+for pointer containers you use arrow  c-> or (*c).size() to access its contents
+warnings arent thrown out in the c++ program
+
+the new keyword is used to add stuff to the heap there for you have to delete it at the end like at the end of the main scope or the constructor

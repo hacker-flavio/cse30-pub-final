@@ -1,0 +1,27 @@
+// Coordinate Error Checking
+if (player1) {
+    bool success = false;
+
+    Vec move = player1func(board, PLAYER1);
+    success = board.updateGrid(move.x, move.y, PLAYER1);
+
+    if (!success){
+        system("clear");
+        std::cout << board;
+        std::cout << "Invalid move" << std::endl;
+        std::cout << "Player 1 wins!!!" << std::endl;
+        done = true;
+    }
+    else {
+        bool success = false;
+        Vec move = player2func(board, PLAYER2);
+        success = board.updateGrid(move.x, move.y, PLAYER2);
+    if (!success){
+        system("clear");
+        std::cout << board;
+        std::cout << "Invalid move" << std::endl;
+        std::cout << "Player 1 wins!!!" << std::endl;
+        done = true;
+                }
+    }
+}

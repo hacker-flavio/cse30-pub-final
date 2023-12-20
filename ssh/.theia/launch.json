@@ -1,0 +1,13 @@
+{
+ "version": "0.2.0", 
+ "configurations": [
+ {
+ "type": "lldb",
+ "request": "launch",
+ "name": "Debug Current",
+ "program": "/home/me/workspace/lecture-materials/lecture_20/app",
+ "args": [],
+ "cwd": "/home/me/workspace/lecture-materials/lecture_20"
+ }
+ ]
+ }

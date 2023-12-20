@@ -1,0 +1,20 @@
+c style array
+templatized
+hash map
+----------------------------------------------------------------
+lecture-5 Sep 13 2023:
+----------------------------------------------------------------
+lecture-5 Sep 18 2023:
+link list you can only traverse one direction
+data structures
+null pointers
+double link list you can traverse forward and back
+----------------------------------------------------------------
+lecture-5 Sep 20 2023:
+use git checkout <filename> to undo git pull
+link lists are slow are sorting and searching, its just limited to applications where the only the only thing you care about is fast insertion to the front or back
+----------------------------------------------------------------
+lecture-11 Oct 04 2023:
+press control + d or in my case command + d to exit a program, doesnt necessarily ends the terminal
+----------------------------------------------------------------
+std::string myNums[10] = {"⓪","①","②","③","④","⑤","⑥","⑦","⑧","⑨"};
